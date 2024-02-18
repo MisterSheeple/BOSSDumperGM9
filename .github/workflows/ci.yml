@@ -26,7 +26,7 @@ jobs:
           python3 -m pip install cryptography git+https://github.com/TuxSH/firmtool.git
 
       - name: Build Project
-        run: make release -j$(nproc)
+        run: make release -j$(nproc) SCRIPT_RUNNER=1
 
       - name: Prepare build artifact
         working-directory: release
