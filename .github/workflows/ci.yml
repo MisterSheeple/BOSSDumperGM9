@@ -31,7 +31,7 @@ jobs:
       - name: Prepare build artifact
         working-directory: release
         run: |
-          ZIPNAME=$(ls SafeMode9-*.zip)
+          ZIPNAME=$(ls GodMode9-*.zip)
           rm $ZIPNAME
           echo "OUTNAME=${ZIPNAME%.zip}" >> $GITHUB_ENV
 
