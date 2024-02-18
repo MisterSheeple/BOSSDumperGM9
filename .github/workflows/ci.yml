@@ -26,12 +26,12 @@ jobs:
           python3 -m pip install cryptography git+https://github.com/TuxSH/firmtool.git
 
       - name: Build Project
-        run: make release -j$(nproc) SCRIPT_RUNNER=1
+        run: make release -j$(nproc) SCRIPT_RUNNER=1 FLAVOR=SafeMode9
 
       - name: Prepare build artifact
         working-directory: release
         run: |
-          ZIPNAME=$(ls GodMode9-*.zip)
+          ZIPNAME=$(ls SafeMode9-*.zip)
           rm $ZIPNAME
           echo "OUTNAME=${ZIPNAME%.zip}" >> $GITHUB_ENV
 
