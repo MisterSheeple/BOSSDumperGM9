@@ -14,7 +14,7 @@ end
 
 set PARTITION_A "D:/partitionA.bin"
 if exist $[PARTITION_A]
-    cp -h -w -n $[PARTITION_A]  $[GM9OUT]/partitionA.bin
+    cp -h -w -n $[PARTITION_A] $[GM9OUT]/partitionA.bin
     echo "PartitionA found."
 else
     echo "PartitionA not found."
@@ -23,7 +23,7 @@ end
 
 set PARTITION_B "D:/partitionB.bin"
 if exist $[PARTITION_B]
-    cp -h -w -n $[PARTITION_B]  $[GM9OUT]/partitionB.bin
+    cp -h -w -n $[PARTITION_B] $[GM9OUT]/partitionB.bin
     echo "You have partitionB!!\nThis is an undocumented occurrence\nand is highly unusual.\nPlease contact Pretendo so they\ncan figure out how this happened."
 else
     echo "PartitionB not found. (this is normal)"
