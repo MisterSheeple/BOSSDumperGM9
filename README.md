@@ -1,7 +1,11 @@
 ![banner](https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png)
 # SpotPassDumper9
 
-hl1_scientist_catscream.wav
+SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
+
+# Usage
+
+Extract the zip to your SD card and hold START + POWER. You should see SpotPassDumper9 show up in your chainloader. Select it and follow the instructions. You should end up with your SpotPass URL cache file in `/gm9/out/`.
 
 # Credits
 * **MisterSheeple**, for script creation
