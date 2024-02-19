@@ -48,7 +48,7 @@ SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
 18. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
 
 ### Without CFW (1.0 - 11.3)
-Coming soon.
+Coming soon. Check back later.
 
 ## Credits
 * **MisterSheeple**, for script creation
