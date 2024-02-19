@@ -1,5 +1,10 @@
 ![banner](https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png)
 
+[![Discord Channel][discord-badge]][discord]
+
+[discord]: https://discord.gg/537RyPNmSg
+[discord-badge]: https://img.shields.io/discord/1209201515063943219?color=%237289DA&logo=discord&logoColor=%23FFFFFF
+
 SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 
 ## Usage
