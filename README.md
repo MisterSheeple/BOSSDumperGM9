@@ -8,6 +8,7 @@ SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
 
 #### Prerequisites
 * Any 3DS/2DS/Whatever with Luma3DS
+* An SD card
 * A way to read SD cards on your PC
 
 #### Instructions
