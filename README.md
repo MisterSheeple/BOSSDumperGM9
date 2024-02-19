@@ -52,7 +52,7 @@ Coming soon. Check back later.
 
 ## Credits
 * **MisterSheeple**, for script creation
-* **TraceEntertains**, for testing and refining my crap
+* **TraceEntertains**, for testing and refining my crap as well as giving me quite a few tips and pointers along the way
 * **Foxlet**, for the excellent icon and banner design
 * **All of the GodMode9 collaborators**
 * **Special thanks to those in the GodMode9 discord**, for helping me troubleshoot a few things
