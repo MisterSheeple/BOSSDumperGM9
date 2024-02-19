@@ -5,6 +5,13 @@ SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
 ## Usage
 
 ### With Luma3DS CFW (any firmware)
+
+#### Prerequisites
+* Any 3DS/2DS/Whatever with Luma3DS
+* A way to read SD cards on your PC
+
+#### Instructions
+
 1. Download the latest release of [SpotPassDumper9 for Luma](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.0/SpotPassDumper9_v1.0_Luma.zip) and extract it to your SD card.
 2. Hold START + POWER to open the Luma3DS chainloader.
 3. Select SpotPassDumper9 and press A.
@@ -12,6 +19,15 @@ SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
 5. Once done, the file `partitionA.bin` (or in rare cases, `partitionB.bin`) will be located on your SD card at `/gm9/out/`. Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 
 ### Without CFW (11.4 - 11.17)
+
+#### Prerequisites
+* Any 3DS/2DS/Whatever with a firmware from 11.4 to 11.17 (latest)
+* A **blank** SD card formatted to FAT32
+    * You will likely run into issues if your SD card is not blank before you begin this
+* A way to read SD cards on your PC
+
+#### Instructions
+
 1. Put the SD card into your system.
 2. Open Mii Maker and wait until you reach the main menu.
 3. Exit the Mii Maker and go to your system settings, then Data Management, then Nintendo 3DS, and finally Software.
