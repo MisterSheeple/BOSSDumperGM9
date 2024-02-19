@@ -1,4 +1,4 @@
-# SpotPass (BOSS) GM9 Dumper Script v1.4 by MisterSheeple
+# SpotPassDumper9 Core Script v1.5 by MisterSheeple
 
 set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact Pretendo for support."
 echo "Press A to continue."
@@ -10,6 +10,10 @@ else
     echo "ERROR: No SpotPass cache was found.\nThis is not normal and may indicate that your system\nhas been tampered with.\nPlease contact Pretendo for support."
     echo "Press the A button to power off the system."
     poweroff
+end
+
+if -u exist "0:/spotpass_cache"
+    mkdir "0:/spotpass_cache"
 end
 
 set PARTITION_A "D:/partitionA.bin"
