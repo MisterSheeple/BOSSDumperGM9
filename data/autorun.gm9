@@ -18,7 +18,7 @@ end
 
 set PARTITION_A "D:/partitionA.bin"
 if exist $[PARTITION_A]
-    cp -h -w -n $[PARTITION_A] $[GM9OUT]/partitionA.bin
+    cp -h -w -n $[PARTITION_A] 0:/spotpass_cache/partitionA.bin
     echo "PartitionA found."
 else
     echo "PartitionA not found."
