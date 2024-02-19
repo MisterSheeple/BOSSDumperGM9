@@ -1,5 +1,4 @@
 ![banner](https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png)
-# SpotPassDumper9
 
 SpotPassDumper9 is a handy little doodad for dumping your SpotPass data.
 
