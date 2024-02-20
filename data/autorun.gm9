@@ -18,7 +18,7 @@ end
 set PARTITION_A "D:/partitionA.bin"
 if exist $[PARTITION_A]
     echo "PartitionA found."
-    if exist "0:/spotpass_cache/partitionA.bin"
+    if exist 0:/spotpass_cache/partitionA.bin
         ask -s "partitionA.bin is already present\non your SD card. Overwrite it?"
         cp -h -w -n $[PARTITION_A] 0:/spotpass_cache/partitionA.bin
     end
@@ -30,7 +30,7 @@ end
 set PARTITION_B "D:/partitionB.bin"
 if exist $[PARTITION_B]
     echo "You have partitionB!!\nThis is an undocumented occurrence\nand is highly unusual.\nPlease contact Pretendo so they\ncan figure out how this happened."
-    if exist "0:/spotpass_cache/partitionB.bin"
+    if exist 0:/spotpass_cache/partitionB.bin
         ask -s "partitionB.bin is already present\non your SD card. Overwrite it?"
         cp -h -w -n $[PARTITION_B] 0:/spotpass_cache/partitionB.bin
     end
