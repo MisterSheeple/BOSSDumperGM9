@@ -18,7 +18,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 
 #### Instructions
 
-1. Download the latest release of **SpotPassDumper9 for Luma**, available from [Universal-Updater](https://universal-team.net/projects/universal-updater.html), or as a release [here on GitHub](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.0/SpotPassDumper9_v1.0_Luma.zip).
+1. Download the latest release of **SpotPassDumper9 for Luma**, available from [Universal-Updater](https://universal-team.net/projects/universal-updater.html), or as a release [here on GitHub](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_Luma.zip).
    a. If downloading from GitHub, extract the contents of the zip to your SD card.
 2. Hold START + POWER to open the Luma3DS chainloader.
 3. Select SpotPassDumper9 and press A.
@@ -40,7 +40,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 3. Exit the Mii Maker and go to your system settings, then Data Management, then Nintendo 3DS, and finally Software.
 4. Exit system settings and power off your system.
 5. Insert your SD card into your computer.
-6. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.0/SpotPassDumper9_v1.0_MSET9.zip) and copy the contents of it to your SD card.
+6. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip) and copy the contents of it to your SD card.
 7. Put the SD card back in your system.
 8. Turn the system back on and hover over system settings (don't enter it though).
 9. Power your system off and back on.
