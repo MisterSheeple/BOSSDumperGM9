@@ -1,20 +1,18 @@
 # SpotPassDumper9 Core Script v1.5 (for SpotPassDumper9 v1.1) by MisterSheeple
 
 set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact Pretendo for support."
-echo "Press A to continue."
+echo "SpotPassDumper9 v1.1\nPress A to continue."
 
 set DISA_IMAGE "1:/data/$[SYSID0]/sysdata/00010034/00000000"
 if exist $[DISA_IMAGE]
     imgmount $[DISA_IMAGE]
 else
-    echo "ERROR: No SpotPass cache was found.\nThis is not normal and may indicate that your system\nhas been tampered with.\nPlease contact Pretendo for support."
-    echo "Press the A button to power off the system."
+    echo "ERROR: No SpotPass cache was found.\nThis is not normal and may indicate that your system\nhas been tampered with.\nPlease contact Pretendo for support.\nPress the A button to power off your system."
     poweroff
 end
 
 if not find "0:/spotpass_cache" NULL
     mkdir "0:/spotpass_cache"
-    echo "I think the dir doesn't exist"
 end
 
 set PARTITION_A "D:/partitionA.bin"
@@ -42,5 +40,5 @@ else
 end
 
 imgumount
-echo "Your SpotPass cache has been dumped to the SD card\nat /gm9/out/\nPress A to power off the system."
+echo "Your SpotPass cache has been dumped to the SD card\nin the spotpass_cache folder.\nPress A to power off the system."
 poweroff
