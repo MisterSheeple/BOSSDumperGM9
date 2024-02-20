@@ -12,7 +12,7 @@ else
     poweroff
 end
 
-if -u exist "0:/spotpass_cache"
+if not exist "0:/spotpass_cache"
     mkdir "0:/spotpass_cache"
 end
 
