@@ -12,8 +12,9 @@ else
     poweroff
 end
 
-if not exist "0:/spotpass_cache"
+if not find "0:/spotpass_cache" NULL
     mkdir "0:/spotpass_cache"
+    echo "I think the dir doesn't exist"
 end
 
 set PARTITION_A "D:/partitionA.bin"
