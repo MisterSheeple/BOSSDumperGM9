@@ -18,7 +18,8 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 
 #### Instructions
 
-1. Download the latest release of [SpotPassDumper9 for Luma](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.0/SpotPassDumper9_v1.0_Luma.zip) and extract the contents of it to your SD card.
+1. Download the latest release of **SpotPassDumper9 for Luma**, available from Universal-Updater, or as a release [here on GitHub](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.0/SpotPassDumper9_v1.0_Luma.zip).
+   a. If downloading from GitHub, extract the contents of the zip to your SD card.
 2. Hold START + POWER to open the Luma3DS chainloader.
 3. Select SpotPassDumper9 and press A.
 4. Follow the directions on the bottom screen.
