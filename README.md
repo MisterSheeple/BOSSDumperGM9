@@ -23,7 +23,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 2. Hold START + POWER to open the Luma3DS chainloader.
 3. Select SpotPassDumper9 and press A.
 4. Follow the directions on the bottom screen.
-5. Once done, the file `partitionA.bin` (or in rare cases, `partitionB.bin`) will be located on your SD card at `/gm9/out/`. Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
+5. Once done, the file `partitionA.bin` (or in rare cases, `partitionB.bin`) will be located on your SD card in the `spotpass_cache` folder. Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 
 ### Without CFW (11.4 - 11.17)
 
@@ -53,7 +53,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 16. Run the mset9 script (On Windows, click on `mset9.bat`. On MacOS, click on `mset9.command`. On Linux, run it by typing `python3 -m mset9.py` into your terminal.) and choose the right firmware and model for your system. Once you've done that, enter 2 to select "Inject MSET9 payload"
 17. Close the mset9 script and put the SD card back in your system.
 18. Follow the directions on the bottom screen.
-19. When complete, your SpotPass URL cache will be located in the `/gm9/out/` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
+19. When complete, your SpotPass URL cache will be located in the `spotpass_cache` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 20. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
 
 ### Without CFW (1.0 - 11.3)
