@@ -36,7 +36,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 #### Instructions
 
 1. Put the SD card into your system.
-2. Open Mii Maker and wait until you reach the main menu.
+2. Open Mii Maker and wait until you reach the main menu, then exit and power off your system.
 3. Insert your SD card into your computer.
 4. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip) and copy the contents of it to your SD card.
 5. Put the SD card back in your system.
