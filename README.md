@@ -25,7 +25,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 4. Follow the directions on the bottom screen.
 5. Once done, the file `partitionA.bin` (or in rare cases, `partitionB.bin`) will be located on your SD card in the `spotpass_cache` folder. Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 
-### Without CFW (11.4 - 11.17)
+### Without CFW (11.4.0 - 11.17.0)
 
 #### Prerequisites
 * Any 3DS/2DS/Whatever with a firmware from 11.4 to 11.17 (latest)
@@ -56,7 +56,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 19. When complete, your SpotPass URL cache will be located in the `spotpass_cache` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 20. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
 
-### Without CFW (1.0 - 11.3)
+### Without CFW (1.0.0 - 11.3.0)
 Coming soon. Check back later.
 
 ## Credits
