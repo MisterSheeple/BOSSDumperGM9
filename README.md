@@ -28,7 +28,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 ### Without CFW (11.4.0 - 11.17.0)
 
 #### Prerequisites
-* Any 3DS/2DS/Whatever with a firmware from 11.4 to 11.17 (latest)
+* Any 3DS/2DS/Whatever with a firmware from 11.4.0 to 11.17.0 (latest)
 * A **blank** SD card formatted to FAT32
     * You will likely run into issues if your SD card is not blank before you begin this
 * A way to read SD cards on your PC
