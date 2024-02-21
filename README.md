@@ -35,11 +35,10 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 * Python 3 must be installed on your PC.
 
 #### Instructions
-
 1. Put the SD card into your system.
 2. Open Mii Maker and wait until you reach the main menu, then exit and power off your system.
 3. Insert your SD card into your computer.
-4. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip) and copy the contents of it to your SD card.
+4. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip) and copy the contents of it to the root your SD card.
 5. Run the mset9 script (On Windows, click on `mset9.bat`. On MacOS, click on `mset9.command`. On Linux, run it by typing `python3 -m mset9.py` into your terminal.)
 6. Once in the script, use the numbers 1-4 (followed by a press of the Enter key) to choose the corresponding model and firmware version for your system.
 7. Press 1 and then Enter to run the sanity check. It will tell you that your title database needs to be initialized.
@@ -57,7 +56,20 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 19. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
 
 ### Without CFW (1.0.0 - 11.3.0)
-Coming soon. Check back later.
+
+#### Prerequisites
+* Any 3DS/2DS/Whatever with a firmware from 1.0.0 to 11.3.0
+* An SD card formatted to FAT32
+* A way to read SD cards on your PC
+
+#### Instructions
+1. Visit the SpotPassDumper9 for Soundhax minisite to download the zip file that's right for your system by entering your system's region, model, and firmware version.
+2. Once you've downloaded the zip file, copy the contents of it to the root of your SD card.
+3. Put the SD card back in your system and power it on.
+4. Open the Nintendo 3DS Sound application.
+5. Look for a sound named "<3 nedwill 2016" and play it. This may take up to 10 tries.
+6. Follow the directions on the bottom screen.
+7. When complete, your SpotPass URL cache will be located in the `spotpass_cache` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
 
 ## Credits
 * **MisterSheeple**, for script creation
