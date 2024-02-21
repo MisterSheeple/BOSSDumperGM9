@@ -32,6 +32,7 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 * A ***blank*** SD card formatted to FAT32
     * **You *will* run into issues if your SD card is not blank before you begin this.**
 * A way to read SD cards on your PC
+* Python 3 must be installed on your PC.
 
 #### Instructions
 
