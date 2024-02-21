@@ -40,20 +40,21 @@ SpotPassDumper9 is a handy little doodad for dumping your 3DS's SpotPass data.
 2. Open Mii Maker and wait until you reach the main menu, then exit and power off your system.
 3. Insert your SD card into your computer.
 4. Download the latest release of [SpotPassDumper9 for MSET9](https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip) and copy the contents of it to your SD card.
-5. Put the SD card back in your system.
-6. Turn the system back on and hover over system settings (don't enter it though).
-7. Power your system off and back on.
-8. Launch system settings.
-9. Go to Data Management -> Nintendo 3DS -> Software. If a message pops up about data corruption, press Reset. Since this is a blank SD card, doing this will not delete any of your save data.
-10. Exit the settings and go back.
-11. Go to Data Management -> Nintendo 3DS -> extra data
-12. Don't touch anything but look for the Mii Maker icon.
-13. With the system still on, remove sd card and put it in your PC.
-14. Run the mset9 script (On Windows, click on `mset9.bat`. On MacOS, click on `mset9.command`. On Linux, run it by typing `python3 -m mset9.py` into your terminal.) and choose the right firmware and model for your system. Once you've done that, enter 2 to select "Inject MSET9 payload"
-15. Close the mset9 script and put the SD card back in your system.
-16. Follow the directions on the bottom screen.
-17. When complete, your SpotPass URL cache will be located in the `spotpass_cache` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
-18. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
+5. Run the mset9 script (On Windows, click on `mset9.bat`. On MacOS, click on `mset9.command`. On Linux, run it by typing `python3 -m mset9.py` into your terminal.)
+6. Once in the script, use the numbers 1-4 (followed by a press of the Enter key) to choose the corresponding model and firmware version for your system.
+7. Press 1 and then Enter to run the sanity check. It will tell you that your title database needs to be initialized.
+8. Close the script and put the SD card back into your system.
+9. Launch system settings.
+10. Go to Data Management -> Nintendo 3DS -> Software. If a message pops up about data corruption, press Reset. Since this is a blank SD card, doing this will not delete any of your save data.
+11. Exit the settings and go back.
+12. Go to Data Management -> Nintendo 3DS -> Extra Data
+13. Don't touch anything but look for the Mii Maker icon.
+14. With the system still on, remove sd card and put it in your PC.
+15. Reopen the mset9 script and again choose the right firmware and model for your system. Once you've done that, press "2" and then the Enter key to select "Inject MSET9 payload".
+16. Once injection is complete, close the mset9 script and put the SD card back in your system.
+17. Follow the directions on the bottom screen.
+18. When complete, your SpotPass URL cache will be located in the `spotpass_cache` folder on your SD card as `partitionA.bin` (or in rare cases, `partitionB.bin`). Upload this file to Pretendo's Bandwidth bot in their Discord using the command `/upload-network-dump boss-database-3ds`.
+19. If you wish to remove the payload and use this SD card as normal, reopen the mset9 script and choose the "Remove MSET9" option.
 
 ### Without CFW (1.0.0 - 11.3.0)
 Coming soon. Check back later.
