@@ -1,13 +1,13 @@
 # SpotPassDumper9 Core Script v1.6 (for SpotPassDumper9 v1.2) by MisterSheeple
 
-set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact the\nSpotPass Archival Project for support."
+set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact the\nSpotPass Archival Project on Discord for support:\nhttps://discord.gg/h9fMdEMJWn"
 echo "SpotPassDumper9 v1.1\nPress A to continue."
 
 set DISA_IMAGE "1:/data/$[SYSID0]/sysdata/00010034/00000000"
 if exist $[DISA_IMAGE]
     imgmount $[DISA_IMAGE]
 else
-    echo "ERROR: No SpotPass cache was found.\nThis is not normal and may indicate that your system\nhas been tampered with.\nPlease contact the\nSpotPass Archival Project for support.\nPress the A button to power off your system."
+    echo "ERROR: No SpotPass cache was found.\nThis is not normal and may indicate that your system\nhas been tampered with.\nPlease contact the\nSpotPass Archival Project on Discord for support.\nhttps://discord.gg/h9fMdEMJWn\nPress the A button to power off your system."
     poweroff
 end
 
@@ -23,13 +23,13 @@ if exist $[PARTITION_A]
     end
     cp -h -w -n $[PARTITION_A] 0:/spotpass_cache/partitionA.bin
 else
-    echo "PartitionA not found."
+    echo "PartitionA not found.\nThis shouldn't really ever happen and\nprobably indicates that something went very wrong.\nPlease contact the\nSpotPass Archival Project on Discord for support.\nhttps://discord.gg/h9fMdEMJWn"
     set PARTITION_A "not_found"
 end
 
 set PARTITION_B "D:/partitionB.bin"
 if exist $[PARTITION_B]
-    echo "You have partitionB!!\nThis is an undocumented occurrence\nand is highly unusual.\nPlease contact the\nSpotPass Archival Project so they\ncan figure out how this happened."
+    echo "You have partitionB!!\nThis is an undocumented occurrence\nand is highly unusual.\nPlease contact the\nSpotPass Archival Project on Discord so we\ncan figure out how this happened:\nhttps://discord.gg/h9fMdEMJWn"
     if exist 0:/spotpass_cache/partitionB.bin
         ask -s "partitionB.bin is already present\non your SD card. Overwrite it?"
     end
