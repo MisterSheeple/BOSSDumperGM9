@@ -9,8 +9,8 @@ on:
       - '**.html'
       - '**.css'
       - '**.js'
-      - 'ci.yml'
-      - 'static.yml'
+      - '.github/workflows/ci.yml'
+      - '.github/workflows/static.yml'
   pull_request:
     branches:
       - master
@@ -19,8 +19,8 @@ on:
       - '**.html'
       - '**.css'
       - '**.js'
-      - 'ci.yml'
-      - 'static.yml'
+      - '.github/workflows/ci.yml'
+      - '.github/workflows/static.yml'
       
 jobs:
   build:
