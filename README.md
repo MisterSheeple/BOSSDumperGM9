@@ -16,6 +16,6 @@ For usage instructions, visit the official [SpotPass Archive site](https://spotp
 * **Foxlet**, for the excellent icon and banner design
 * **Zoogie**, for creating MSET9
 * **nedwill**, for creating soundhax
-* **TuxSH**, for creating universal otherapp.
+* **TuxSH**, for creating universal otherapp
 * **All of the GodMode9 contributors**
 * **Special thanks to those in the GodMode9 discord**, for helping me troubleshoot a few things
