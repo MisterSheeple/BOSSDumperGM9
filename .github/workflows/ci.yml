@@ -1,6 +1,7 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
     branches:
       - master
     paths-ignore:
@@ -10,7 +11,17 @@ on: [push, pull_request]
       - '**.js'
       - 'ci.yml'
       - 'static.yml'
-
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+      - '**.html'
+      - '**.css'
+      - '**.js'
+      - 'ci.yml'
+      - 'static.yml'
+      
 jobs:
   build:
     runs-on: ubuntu-latest
