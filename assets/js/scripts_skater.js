@@ -21,15 +21,15 @@ $('button.group').on('click', function() {
     } else {
       $(elem).show();
     }
-    var hide_eur = $(elem).hasClass('no_eur') && $('.eur').hasClass('selected');
-    if (hide_eur) {
+    var eur_only = $(elem).hasClass('no_eur') && $('.eur').hasClass('selected');
+    if (eur_only) {
       $(elem).removeClass('selected');
       $(elem).hide();
     } else {
       $(elem).show();
     }
-    var hide_jpn = $(elem).hasClass('no_jpn') && $('.jpn').hasClass('selected');
-    if (hide_jpn) {
+    var jpn_only = $(elem).hasClass('no_jpn') && $('.jpn').hasClass('selected');
+    if (jpn_only) {
       $(elem).removeClass('selected');
       $(elem).hide();
     } else {
