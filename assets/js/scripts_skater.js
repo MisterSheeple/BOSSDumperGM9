@@ -21,7 +21,7 @@ $('button.group').on('click', function() {
     } else {
       $(elem).show();
     }
-    var eurjpn_only = $(elem).hasClass('eurjpn_only') && ($('.eur').hasClass('selected') || $('.jpn').hasClass('selected'));
+    var eurjpn_only = $(elem).hasClass('eurjpn_only') && $('.eur').hasClass('selected') || $('.jpn').hasClass('selected');
     if (eurjpn_only) {
       $(elem).show();
     } else {
