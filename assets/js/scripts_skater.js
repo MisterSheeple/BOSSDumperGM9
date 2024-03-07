@@ -12,19 +12,10 @@ $('button.group').on('click', function() {
     $(this).addClass('selected');
   }
 
-  // There is no CHN/TWN N3DS
-  if ($('.region .no_n3ds').hasClass('selected')) {
-    $('#n3ds').removeClass('selected');
-    $('#n3ds').hide();
-  } else {
-    $('#n3ds').show();
-  }
-
   // Hide/show relevant system versions
   $('.firmware .group').each(function (index, elem) {
-    var hide_n3ds = $(elem).hasClass('no_n3ds') && $('#n3ds').hasClass('selected');
-    var hide_kct = $(elem).hasClass('no_kct') && $('.kct').hasClass('selected');
-    if (hide_n3ds || hide_kct) {
+    var hide_kor = $(elem).hasClass('no_kor') && $('.kor').hasClass('selected');
+    if (hide_kor) {
       $(elem).removeClass('selected');
       $(elem).hide();
     } else {
@@ -33,7 +24,6 @@ $('button.group').on('click', function() {
   })
 
   if (   $('.region').children().hasClass('selected')
-      && $('.console').children().hasClass('selected')
       && $('.firmware').children().hasClass('selected')
   ) {
     $('#download').addClass('active');
@@ -49,13 +39,9 @@ $('#download').on('click', function() {
   }
 
   var region = $('.region').children('.selected').attr('id');
-  var console_ = $('.console').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
 
   var base = "https://github.com/MisterSheeple/SpotPassDumper9/raw/master/assets/super-skaterhax/";
-  if(console_ == 'n3ds')
-    var filename = "spotpassdumper9_super-skaterhax-{0}-{1}.zip".format(region, console_);
-  else
-    var filename = "spotpassdumper9_super-skaterhax-{0}-{1}-{2}.zip".format(region, console_, firmware_);
+  var filename = "spotpassdumper9_super-skaterhax-{0}-{1}.zip".format(region, firmware_);
   window.location.href = base + filename;
 });
