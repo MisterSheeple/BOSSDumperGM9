@@ -25,9 +25,10 @@ $('button.group').on('click', function() {
     if (eur_only) {
       $(elem).show();
     } else {
+      if $('.jpn').hasClass('selected') {
       $(elem).removeClass('selected');
       $(elem).hide();
-    }
+    }}
     var jpn_only = $(elem).hasClass('jpn_only') && $('.jpn').hasClass('selected');
     if (jpn_only) {
       $(elem).show();
