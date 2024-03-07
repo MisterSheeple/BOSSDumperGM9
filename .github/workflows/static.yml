@@ -6,7 +6,7 @@ on:
   push:
     branches: ["master"]
     paths:
-      - 'soundhax.html'
+      - '**.html'
       - 'assets/js/**.js'
       - 'assets/img/**.png'
       - 'assets/css/**.css'
