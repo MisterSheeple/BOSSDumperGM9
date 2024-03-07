@@ -23,23 +23,23 @@ $('button.group').on('click', function() {
     }
     var eur_only = $(elem).hasClass('eur_only') && $('.eur').hasClass('selected');
     if (eur_only) {
+      $(elem).show();
+    } else {
       $(elem).removeClass('selected');
       $(elem).hide();
-    } else {
-      $(elem).show();
     }
     var jpn_only = $(elem).hasClass('jpn_only') && $('.jpn').hasClass('selected');
     if (jpn_only) {
+      $(elem).show();
+    } else {
       $(elem).removeClass('selected');
       $(elem).hide();
-    } else {
-      $(elem).show();
     }
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     if (usa_only) {
-      $(elem).removeClass('selected');
       $(elem).show();
     } else {
+      $(elem).removeClass('selected');
       $(elem).hide();
     }
   })
