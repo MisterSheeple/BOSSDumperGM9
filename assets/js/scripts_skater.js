@@ -38,9 +38,9 @@ $('button.group').on('click', function() {
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     if (usa_only) {
       $(elem).removeClass('selected');
-      $(elem).hide();
-    } else {
       $(elem).show();
+    } else {
+      $(elem).hide();
     }
   })
 
