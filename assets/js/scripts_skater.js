@@ -17,23 +17,30 @@ $('button.group').on('click', function() {
     var hide_kor = $(elem).hasClass('no_kor') && $('.kor').hasClass('selected');
     if (hide_kor) {
       $(elem).removeClass('selected');
-      $(elem).hide();
-    } else {
       $(elem).show();
+    } else {
+      $(elem).hide();
     }
     var hide_eur = $(elem).hasClass('no_eur') && $('.eur').hasClass('selected');
     if (hide_eur) {
       $(elem).removeClass('selected');
-      $(elem).hide();
-    } else {
       $(elem).show();
+    } else {
+      $(elem).hide();
     }
     var hide_jpn = $(elem).hasClass('no_jpn') && $('.jpn').hasClass('selected');
     if (hide_jpn) {
       $(elem).removeClass('selected');
-      $(elem).hide();
-    } else {
       $(elem).show();
+    } else {
+      $(elem).hide();
+    }
+    var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
+    if (usa_only) {
+      $(elem).removeClass('selected');
+      $(elem).show();
+    } else {
+      $(elem).hide();
     }
   })
 
