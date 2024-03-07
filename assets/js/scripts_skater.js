@@ -14,21 +14,21 @@ $('button.group').on('click', function() {
 
   // Hide/show relevant system versions
   $('.firmware .group').each(function (index, elem) {
-    var hide_kor = $(elem).hasClass('no_kor') && $('.kor').hasClass('selected');
-    if (hide_kor) {
+    var no_kor = $(elem).hasClass('no_kor') && $('.kor').hasClass('selected');
+    if (no_kor) {
       $(elem).removeClass('selected');
       $(elem).hide();
     } else {
       $(elem).show();
     }
-    var eur_only = $(elem).hasClass('no_eur') && $('.eur').hasClass('selected');
+    var eur_only = $(elem).hasClass('eur_only') && $('.eur').hasClass('selected');
     if (eur_only) {
       $(elem).removeClass('selected');
       $(elem).hide();
     } else {
       $(elem).show();
     }
-    var jpn_only = $(elem).hasClass('no_jpn') && $('.jpn').hasClass('selected');
+    var jpn_only = $(elem).hasClass('jpn_only') && $('.jpn').hasClass('selected');
     if (jpn_only) {
       $(elem).removeClass('selected');
       $(elem).hide();
