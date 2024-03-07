@@ -22,7 +22,7 @@ $('button.group').on('click', function() {
       $(elem).show();
     }
     var eurjpn_only = $(elem).hasClass('eurjpn_only') && $('.eur').hasClass('selected');
-    if (eur_only) {
+    if (eurjpn_only) {
       $(elem).show();
     } else {
       $(elem).removeClass('selected');
