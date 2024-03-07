@@ -52,7 +52,7 @@ $('#download').on('click', function() {
   var console_ = $('.console').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
 
-  var base = "https://github.com/MisterSheeple/SpotPassDumper9/raw/master/assets/soundhax/";
+  var base = "https://github.com/SpotPassArchive/SpotPassDumper9/raw/master/assets/soundhax/";
   if(console_ == 'n3ds')
     var filename = "spotpassdumper9_soundhax-{0}-{1}.zip".format(region, console_);
   else
