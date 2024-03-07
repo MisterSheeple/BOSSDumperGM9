@@ -21,6 +21,20 @@ $('button.group').on('click', function() {
     } else {
       $(elem).show();
     }
+    var hide_eur = $(elem).hasClass('no_eur') && $('.eur').hasClass('selected');
+    if (hide_eur) {
+      $(elem).removeClass('selected');
+      $(elem).hide();
+    } else {
+      $(elem).show();
+    }
+    var hide_jpn = $(elem).hasClass('no_jpn') && $('.jpn').hasClass('selected');
+    if (hide_jpn) {
+      $(elem).removeClass('selected');
+      $(elem).hide();
+    } else {
+      $(elem).show();
+    }
   })
 
   if (   $('.region').children().hasClass('selected')
