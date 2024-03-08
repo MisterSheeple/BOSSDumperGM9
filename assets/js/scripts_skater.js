@@ -14,7 +14,7 @@ $('button.group').on('click', function() {
 
   // Hide/show relevant system versions
   $('.firmware .group').each(function (index, elem) {
-    $('.btn-group .firmware').hide();
+    $('.firmwaregroup').hide();
     var kor_only = $(elem).hasClass('kor_only') && $('.kor').hasClass('selected');
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     var eur_only = $(elem).hasClass('eur_only') && $('.eur').hasClass('selected');
