@@ -41,13 +41,9 @@ $('#download').on('click', function() {
     return;
   }
 
-     function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-   }
+$('#btn').click(function() {
+    $('#wizard').toggle();
+});
 
   var region = $('.region').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
