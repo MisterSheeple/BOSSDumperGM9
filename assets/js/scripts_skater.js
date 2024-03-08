@@ -42,7 +42,7 @@ $('#download').on('click', function() {
   }
 
 $('#btn').click(function() {
-    $('#wizard').toggle();
+    $('#firmwaregroup').toggle();
 });
 
   var region = $('.region').children('.selected').attr('id');
