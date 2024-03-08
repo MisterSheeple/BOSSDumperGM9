@@ -41,10 +41,6 @@ $('#download').on('click', function() {
     return;
   }
 
-$('#btn').click(function() {
-    $('#firmwaregroup').toggle();
-});
-
   var region = $('.region').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
 
