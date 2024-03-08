@@ -28,13 +28,13 @@ $('button.group').on('click', function() {
 //      $(elem).removeClass('selected');
 //      $(elem).hide();
 //    }
-    var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
-    if (usa_only) {
-      $(elem).show();
-    } else {
-      $(elem).removeClass('selected');
-      $(elem).hide();
-    }
+//    var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
+//    if (usa_only) {
+//      $(elem).show();
+//    } else {
+//      $(elem).removeClass('selected');
+//      $(elem).hide();
+//    }
   })
 
   if (   $('.region').children().hasClass('selected')
