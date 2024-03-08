@@ -15,6 +15,8 @@ $('button.group').on('click', function() {
   // Hide/show relevant system versions
   $('.firmware .group').each(function (index, elem) {
     hide(document.querySelectorAll('.firmwaregroup'));
+    hide(document.querySelector('.firmwaregroup'));
+    hide(document.getElementById('firmwaregroup'));
     var kor_only = $(elem).hasClass('kor_only') && $('.kor').hasClass('selected');
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     var eur_only = $(elem).hasClass('eur_only') && $('.eur').hasClass('selected');
@@ -37,6 +39,13 @@ $('button.group').on('click', function() {
   }
 
 });
+
+function hide (elements) {
+  elements = elements.length ? elements : [elements];
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'none';
+  }
+}
 
 $('#download').on('click', function() {
   if (!$(this).hasClass('active')) {
