@@ -21,13 +21,13 @@ $('button.group').on('click', function() {
     } else {
       $(elem).show();
     }
-    var eurjpn_only = $(elem).hasClass('eurjpn_only') && $('.eur').hasClass('selected') || $('.jpn').hasClass('selected');
-    if (eurjpn_only) {
-      $(elem).show();
-    } else {
-      $(elem).removeClass('selected');
-      $(elem).hide();
-    }
+//    var eurjpn_only = $(elem).hasClass('eurjpn_only') && $('.eur').hasClass('selected') || $('.jpn').hasClass('selected');
+//    if (eurjpn_only) {
+//      $(elem).show();
+//    } else {
+//      $(elem).removeClass('selected');
+//      $(elem).hide();
+//    }
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     if (usa_only) {
       $(elem).show();
