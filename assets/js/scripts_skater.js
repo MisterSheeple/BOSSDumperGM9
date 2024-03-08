@@ -13,12 +13,14 @@ $('button.group').on('click', function() {
   }
 
   // Hide/show relevant system versions
+ $('.btn-group .firmware').hide();
   $('.firmware .group').each(function (index, elem) {
     var kor_only = $(elem).hasClass('kor_only') && $('.kor').hasClass('selected');
     var usa_only = $(elem).hasClass('usa_only') && $('.usa').hasClass('selected');
     var eur_only = $(elem).hasClass('eur_only') && $('.eur').hasClass('selected');
     var jpn_only = $(elem).hasClass('jpn_only') && $('.jpn').hasClass('selected');
     if (kor_only || usa_only || eur_only || jpn_only) {
+      $('.btn-group .firmware').show();
       $(elem).show();
     } else {
       $(elem).removeClass('selected');
