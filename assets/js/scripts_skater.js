@@ -39,9 +39,9 @@ $('button.group').on('click', function() {
 function toggle_visibility(id) {
        var e = document.getElementById(id);
        if($('.jpn').hasClass('selected') || $('.usa').hasClass('selected') || $('.eur').hasClass('selected') || $('.kor').hasClass('selected'))
-          e.style.display = 'block';
-       else
           e.style.display = 'none';
+       else
+          e.style.display = 'block';
    }
 
 $('#download').on('click', function() {
