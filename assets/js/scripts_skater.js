@@ -4,12 +4,6 @@ String.prototype.format = function () {
   return this.replace(/\{(\d+)\}/g, function (m, n) { return args[n]; });
 };
 
-//function toggle_visibility(id) {
-//       var e = document.getElementById(id);
-//       if($('.jpn').hasClass(!'selected') || $('.usa').hasClass(!'selected') || $('.eur').hasClass(!'selected') || $('.kor').hasClass(!'selected'))
-//          e.style.display = 'block';
-//   }
-
 $('button.group').on('click', function() {
   if ($(this).hasClass('selected')) {
     $(this).removeClass('selected');
