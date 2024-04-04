@@ -1,7 +1,7 @@
-# SpotPassDumper9 Core Script v1.6 (for SpotPassDumper9 v1.2) by MisterSheeple
+# SpotPassDumper9 Core Script v1.6 (for SpotPassDumper9 v1.2/v1.3) by MisterSheeple
 
 set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact the\nSpotPass Archival Project on Discord for support:\nhttps://discord.gg/h9fMdEMJWn"
-echo "SpotPassDumper9 v1.2\nPress A to continue."
+echo "SpotPassDumper9 v1.3\nPress A to continue."
 
 set DISA_IMAGE "1:/data/$[SYSID0]/sysdata/00010034/00000000"
 if exist $[DISA_IMAGE]
