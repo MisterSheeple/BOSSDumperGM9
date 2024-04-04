@@ -28,18 +28,6 @@ else
     set PARTITION_A "not_found"
 end
 
-set PARTITION_B "D:/partitionB.bin"
-if exist $[PARTITION_B]
-    echo "You have partitionB!!\nThis is an undocumented occurrence\nand is highly unusual.\nPlease contact the\nSpotPass Archival Project on Discord so we\ncan figure out how this happened:\nhttps://discord.gg/h9fMdEMJWn"
-    if exist $[SPOTPASS_CACHE]/partitionB.bin
-        ask -s "partitionB.bin is already present\non your SD card. Overwrite it?"
-    end
-    cp -h -w -n $[PARTITION_B] $[SPOTPASS_CACHE]/partitionB.bin
-else
-    echo "PartitionB not found. (this is normal)"
-    set PARTITION_B "not_found"
-end
-
 imgumount
 echo "Your SpotPass cache has been dumped to the SD card\nin the spotpass_cache folder.\nPress A to power off the system."
 poweroff
