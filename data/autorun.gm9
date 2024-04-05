@@ -29,5 +29,5 @@ else
 end
 
 imgumount
-echo "Your SpotPass cache has been dumped to the SD card\nin the spotpass_cache folder.\nPress A to power off the system."
+echo "Your SpotPass cache has been dumped to the SD card\nin the /spotpass_cache/ folder.\nPress A to power off the system."
 poweroff
