@@ -1,4 +1,4 @@
-# SpotPassDumper9 Core Script v1.6 (for SpotPassDumper9 v1.2/v1.3) by MisterSheeple
+# SpotPassDumper9 Core Script v1.7 (for SpotPassDumper9 v1.3) by MisterSheeple
 
 set ERRORMSG "Something went terribly wrong\nin an unexpected way.\nPlease contact the\nSpotPass Archival Project on Discord for support:\nhttps://discord.gg/h9fMdEMJWn"
 echo "SpotPassDumper9 v1.3\nPress A to continue."
