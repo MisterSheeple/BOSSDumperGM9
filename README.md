@@ -1,3 +1,5 @@
+# NOTICE: This tool has been discontinued as of the closure of the 3DS online services.
+
 ![banner](https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png)
 
 [![Discord Channel][discord-badge]][discord]
